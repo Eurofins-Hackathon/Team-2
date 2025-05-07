@@ -49,6 +49,17 @@ This is a console-based implementation of the classic Battleship game, written i
 - `Battleship-copilot.csproj`: Project file for the C# application.
 - `bin/` and `obj/`: Directories for build and output files.
 
+## Troubleshooting
+
+If you encounter issues such as SSL certificate problems when using Git, consider the following steps:
+
+1. **Update Git**: Ensure you are using the latest version of Git.
+2. **Disable SSL Verification Temporarily**: Run `git config --global http.sslVerify false` (not recommended for long-term use).
+3. **Use SSH Instead of HTTPS**: Switch to SSH by running `git remote set-url origin git@github.com:Eurofins-Hackathon/Team-2.git`.
+4. **Check Network Settings**: Ensure your network allows access to GitHub and that necessary certificates are installed.
+
+For further assistance, consult the [Git documentation](https://git-scm.com/doc).
+
 ## Contributing
 
 Feel free to fork this repository and submit pull requests. Contributions are welcome!
