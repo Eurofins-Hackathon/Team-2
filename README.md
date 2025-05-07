@@ -12,4 +12,6 @@ A simple command-line implementation of the classic **Battleship** game using **
 - Game-over detection
 
 # 🖥️ Example Output
+![image](https://github.com/user-attachments/assets/0a7c723c-5fbe-4c64-9da8-53c6958211fd)
+
 
